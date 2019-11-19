@@ -35,7 +35,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Rajagonda\\GondaYoutube\\YoutubeServiceProvider"
+        "Rajagonda\\GondaYoutube\\GondaYoutubeServiceProvider"
       ],
       "aliases": {
         "GondaYoutube": "Rajagonda\\GondaYoutube\\Facades\\GondaYoutube"
