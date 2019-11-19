@@ -1,5 +1,5 @@
 {
-  "name": "gonda/gondayoutube",
+  "name": "rajagonda/gondayoutube",
   "description": "Laravel PHP Facade/Wrapper for the Youtube Data API v3",
   "keywords": [
     "youtube",
@@ -24,21 +24,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Gonda\\GondaYoutube\\": "src"
+      "Rajagonda\\GondaYoutube\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Gonda\\GondaYoutube\\Tests\\": "tests"
+      "Rajagonda\\GondaYoutube\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Gonda\\GondaYoutube\\YoutubeServiceProvider"
+        "Rajagonda\\GondaYoutube\\YoutubeServiceProvider"
       ],
       "aliases": {
-        "GondaYoutube": "Gonda\\GondaYoutube\\Facades\\GondaYoutube"
+        "GondaYoutube": "Rajagonda\\GondaYoutube\\Facades\\GondaYoutube"
       }
     }
   }

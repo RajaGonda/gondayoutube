@@ -1,6 +1,6 @@
 <?php
 
-namespace Gonda\GondaYoutube\Tests;
+namespace Rajagonda\GondaYoutube\Tests;
 
 use Gonda\GondaYoutube\GondaYoutube;
 use PHPUnit\Framework\TestCase;

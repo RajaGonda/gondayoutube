@@ -34,7 +34,7 @@ Do not forget to add also Youtube facade there:
 
 Publish config settings:
 ```
-$ php artisan vendor:publish --provider="Gonda\GondaYoutube\GondaYoutubeServiceProvider"
+$ php artisan vendor:publish --provider="Rajagonda\GondaYoutube\GondaYoutubeServiceProvider"
 ```
 
 Set your Youtube API key in the file:
@@ -56,7 +56,7 @@ GondaYoutube::setApiKey('KEY');
 ## Usage
 
 ```php
-// use Gonda\GondaYoutube\Facades\GondaYoutube;
+// use Rajagonda\GondaYoutube\Facades\GondaYoutube;
 
 
 // Return an STD PHP object

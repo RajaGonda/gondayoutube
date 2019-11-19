@@ -1,6 +1,6 @@
 <?php
 
-namespace Gonda\GondaYoutube;
+namespace Rajagonda\GondaYoutube;
 
 use Illuminate\Support\ServiceProvider;
 

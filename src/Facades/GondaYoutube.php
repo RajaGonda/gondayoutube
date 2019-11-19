@@ -1,6 +1,6 @@
 <?php
 
-namespace Gonda\GondaYoutube\Facades;
+namespace Rajagonda\GondaYoutube\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
