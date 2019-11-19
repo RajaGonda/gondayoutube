@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/gonda.iml" filepath="$PROJECT_DIR$/.idea/gonda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GondaYoutube/.idea/gonda.iml" filepath="$PROJECT_DIR$/../GondaYoutube/.idea/gonda.iml" />
     </modules>
   </component>
 </project>
