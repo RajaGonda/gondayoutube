@@ -1,0 +1,45 @@
+{
+  "name": "gonda/gondayoutube",
+  "description": "Laravel PHP Facade/Wrapper for the Youtube Data API v3",
+  "keywords": [
+    "youtube",
+    "api",
+    "video",
+    "laravel",
+    "raja",
+    "gonda"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "rajagonda",
+      "email": "rajagonda@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gonda\\GondaYoutube\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Gonda\\GondaYoutube\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Gonda\\GondaYoutube\\YoutubeServiceProvider"
+      ],
+      "aliases": {
+        "GondaYoutube": "Gonda\\GondaYoutube\\Facades\\GondaYoutube"
+      }
+    }
+  }
+}
