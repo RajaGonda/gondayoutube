@@ -17,19 +17,19 @@ Looking for Youtube Package for either of these: PHP 5, Laravel 5.0, Laravel 4? 
 
 Run in console below command to download package to your project:
 ```
-composer require gonda/gondayoutube
+composer require rajagonda/gondayoutube
 ```
 
 ## Configuration
 
-In `/config/app.php` add YoutubeServiceProvider:
+In `/config/app.php` add GondaYoutubeServiceProvider:
 ```
-Gonda\GondaYoutube\GondaYoutubeServiceProvider::class,
+Rajagonda\GondaYoutube\GondaYoutubeServiceProvider::class,
 ```
 
 Do not forget to add also Youtube facade there:
 ```
-'GondaYoutube' => Gonda\GondaYoutube\Facades\GondaYoutube::class,
+'GondaYoutube' => Rajagonda\GondaYoutube\Facades\GondaYoutube::class,
 ```
 
 Publish config settings:

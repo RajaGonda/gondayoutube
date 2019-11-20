@@ -28,7 +28,7 @@ class GondaYoutubeServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(GondaYoutube::class, function () {
-            return new GondaYoutube(config('youtube.key'));
+            return new GondaYoutube(config('gondayoutube.key'));
         });
 
         $this->app->alias(GondaYoutube::class, 'gondayoutube');
